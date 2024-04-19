@@ -1,0 +1,36 @@
+
+
+git push alias branch name
+
+
+api gateway-- 
+lambda --Run code without provisioning or managing infrastructure. Simply write and upload code as a .zip file or container image.
+
+     --- scaling
+
+         A serverless architecture is a way to build and run applications and services without having to manage infrastructure. Your application still runs on ...
+
+
+
+push the image to elastic registry
+
+Developers develop their code in git and push it into github after pushing the code into github pipeline will start running , we use github actions as ci/cd tool,inside github actions we have seperate pielines for different environments.
+
+once the pipeline runs the artifact will save into
+
+build : build artifact  - compile code
+upload to aws s3 : 
+deploy code from amazon s3 to lambda --- publish zip-archive on AWS Lambda service and made an alias for this version
+Publish API version for a new AWS Lambda
+Update configuration: After new version been published we update config.json with new URL to AWS API Gateway
+
+used aws cli to execute commands to copying,create,delete,manage s3 bucket  , to deploy aws lambda using aws cli commands
+copying the commands 
+used boto 3 libraries
+python used for automation and developing the applications - infra automation
+
+
+root volume -- mounting the servers
+
+lsblk
+
